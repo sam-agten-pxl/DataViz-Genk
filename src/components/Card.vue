@@ -72,7 +72,7 @@ export default {
   transform: scaleX(1);
 }
 
-.cardfade-enter-from {
+.cardfade-enter {
   transform: scale(0);
 }
 
@@ -93,7 +93,7 @@ export default {
   transition: all ease-in 300ms;
 }
 
-.cardfade-enter-from .card-title{
+.cardfade-enter .card-title{
   transform: translateY(2rem);
   opacity: 0;
 }
@@ -108,7 +108,7 @@ export default {
   transition-delay: 200ms;
 }
 
-.cardfade-enter-from .card-title::after {
+.cardfade-enter .card-title::after {
   transform: scaleX(0);
 }
 
@@ -117,7 +117,7 @@ export default {
   transition-delay: 200ms;
 }
 
-.cardfade-enter-from .card-body {
+.cardfade-enter .card-body {
   transform: translateX(-100%);
   opacity: 0;
 }
